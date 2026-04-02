@@ -93,7 +93,7 @@
         <h1>Privacy Policy</h1>
         <p class="last-updated">Last updated: March 24, 2026</p>
 
-        <p>Cool9Games ("we," "us," or "our") built <strong>Tappy Merge</strong> ("the App") as a free, ad-supported mobile application. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App. Please read this policy carefully. By downloading or using the App, you agree to the collection and use of information in accordance with this policy.</p>
+        <p>Lemon8Games ("we," "us," or "our") built <strong>Tappy Merge</strong> ("the App") as a free, ad-supported mobile application. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App. Please read this policy carefully. By downloading or using the App, you agree to the collection and use of information in accordance with this policy.</p>
 
         <h2>1. Information We Collect</h2>
 
@@ -101,8 +101,10 @@
         <p>When you use Tappy Merge, certain information may be collected automatically, including but not limited to:</p>
         <ul>
             <li><strong>Device Information:</strong> Device model, operating system version, unique device identifiers, mobile network information, and language settings.</li>
-            <li><strong>Usage Data:</strong> App interaction data such as game scores, session duration, feature usage, and crash/performance logs.</li>
+            <li><strong>Usage Data:</strong> App interaction data such as game scores, session duration, feature usage, and crash/performance logs. Firebase Analytics collects aggregated usage statistics, and Firebase Crashlytics collects crash logs and diagnostic data to help us improve app stability.</li>
             <li><strong>Advertising Data:</strong> Advertising ID (Google Advertising ID on Android, IDFA on iOS), ad interaction data (impressions, clicks), and IP address (used for approximate location for ad targeting at the country/region level only).</li>
+            <li><strong>Player Identity:</strong> If you sign in with Google Play Games Services, we may receive your Play Games player ID, display name, and profile image to enable leaderboard functionality.</li>
+            <li><strong>Purchase Data:</strong> If you make in-app purchases, transaction data is processed by Google Play billing. We do not directly collect or store your payment information (e.g., credit card numbers). Google Play provides us with a purchase token and order ID to verify and fulfill your purchase.</li>
         </ul>
 
         <h3>1.2 Information We Do NOT Collect</h3>
@@ -111,7 +113,7 @@
             <li>Personal identification information (name, email address, phone number, etc.)</li>
             <li>Precise geolocation data (GPS coordinates)</li>
             <li>Contacts, photos, camera, or microphone data</li>
-            <li>Financial or payment information</li>
+            <li>Financial or payment information (payment processing is handled entirely by Google Play; we never see or store your credit card or bank details)</li>
             <li>User-generated content or messages</li>
         </ul>
 
@@ -137,6 +139,30 @@
                 <td>Ad serving and mediation</td>
                 <td><a href="https://policies.google.com/technologies/ads" target="_blank">Google Ads Policy</a></td>
             </tr>
+            <tr>
+                <td>Firebase Analytics</td>
+                <td>Google LLC</td>
+                <td>Usage analytics and app performance monitoring</td>
+                <td><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></td>
+            </tr>
+            <tr>
+                <td>Firebase Crashlytics</td>
+                <td>Google LLC</td>
+                <td>Crash reporting and stability monitoring</td>
+                <td><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></td>
+            </tr>
+            <tr>
+                <td>Google Play Games Services</td>
+                <td>Google LLC</td>
+                <td>Leaderboards and player identity</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+            </tr>
+            <tr>
+                <td>Google Play Billing</td>
+                <td>Google LLC</td>
+                <td>In-app purchase processing</td>
+                <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></td>
+            </tr>
         </table>
 
         <div class="highlight">
@@ -152,8 +178,10 @@
         <ul>
             <li><strong>Game Functionality:</strong> To save your game progress, best scores, and preferences locally on your device using SharedPreferences.</li>
             <li><strong>Advertising:</strong> To display relevant advertisements through Google AdMob, which supports the free availability of the App.</li>
-            <li><strong>App Improvement:</strong> To identify and fix bugs, crashes, and performance issues.</li>
-            <li><strong>Analytics:</strong> To understand general usage patterns and improve the user experience.</li>
+            <li><strong>Crash Reporting:</strong> To identify and fix bugs, crashes, and performance issues through Firebase Crashlytics.</li>
+            <li><strong>Analytics:</strong> To understand general usage patterns and improve the user experience through Firebase Analytics.</li>
+            <li><strong>Leaderboards:</strong> To display global leaderboards and player rankings through Google Play Games Services.</li>
+            <li><strong>In-App Purchases:</strong> To process and verify purchases made through Google Play billing.</li>
         </ul>
 
         <h2>4. Data Storage and Security</h2>
@@ -163,7 +191,7 @@
         <h2>5. Data Retention</h2>
         <ul>
             <li><strong>Local Data:</strong> Game data is stored on your device until you uninstall the App or clear the App's data through your device settings.</li>
-            <li><strong>Third-Party Data:</strong> Data collected by Google AdMob is retained according to <a href="https://policies.google.com/privacy" target="_blank">Google's data retention policies</a>.</li>
+            <li><strong>Third-Party Data:</strong> Data collected by Google AdMob, Firebase Analytics, Firebase Crashlytics, Google Play Games Services, and Google Play billing is retained according to <a href="https://policies.google.com/privacy" target="_blank">Google's data retention policies</a>.</li>
         </ul>
 
         <h2>6. Children's Privacy</h2>
@@ -208,7 +236,7 @@
         <p>If you are located in Brazil, you have rights under the Lei Geral de Prote&ccedil;&atilde;o de Dados (LGPD), including the right to access, correct, delete, and obtain information about the processing of your personal data.</p>
 
         <h2>8. International Data Transfers</h2>
-        <p>Information collected through third-party services (Google AdMob) may be transferred to and processed in countries other than your country of residence, including the United States. These countries may have data protection laws that differ from those in your jurisdiction. By using the App, you consent to such transfers.</p>
+        <p>Information collected through third-party services (Google AdMob, Firebase Analytics, Firebase Crashlytics, Google Play Games Services, and Google Play billing) may be transferred to and processed in countries other than your country of residence, including the United States. These countries may have data protection laws that differ from those in your jurisdiction. By using the App, you consent to such transfers.</p>
 
         <h2>9. Permissions</h2>
         <p>Tappy Merge requires the following device permissions:</p>
@@ -219,7 +247,7 @@
             </tr>
             <tr>
                 <td>INTERNET</td>
-                <td>Required to load and display advertisements through Google AdMob</td>
+                <td>Required to load advertisements, send analytics and crash reports, connect to Google Play Games Services, and process in-app purchases</td>
             </tr>
         </table>
         <p>The App does not request access to your camera, microphone, contacts, location, storage, or any other sensitive device features.</p>
@@ -233,8 +261,8 @@
         <div class="contact-box">
             <h2 style="color:#fff; margin-top:0;">12. Contact Us</h2>
             <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
-            <p><strong>Developer:</strong> Cool9Games</p>
-            <p><strong>Email:</strong> <a href="mailto:yigitsurgec@gmail.com">yigitsurgec@gmail.com</a></p>
+            <p><strong>Developer:</strong> Lemon8Games</p>
+            <p><strong>Email:</strong> <a href="mailto:info@playlemon8.com">info@playlemon8.com</a></p>
             <p><strong>App Name:</strong> Tappy Merge</p>
             <p><strong>Platform:</strong> Android (Google Play Store)</p>
         </div>
